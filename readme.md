@@ -39,4 +39,4 @@ A PyTorch-based chatbot trained on custom intents to handle customer interaction
 ## Usage
 
 1.  Prepare your intents in  `intents.json`
-2. Run the `chat-bot.ipynb` 
+2. Run the `chat_bot.ipynb` 
