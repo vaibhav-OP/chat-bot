@@ -1,0 +1,237 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey there", "Good morning", "Good afternoon", 
+        "Good evening", "What's up?", "Howdy", "Greetings", "Yo!",
+        "Hiya", "Hey bot", "Hello chatbot", "Good day", "Nice to see you"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Ready to explore my work?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Exit", "Quit", "Close", 
+        "End", "Bye for now", "Signing off", "Talk later", "Catch you later",
+        "I'm done", "That's all", "Finished", "Adios", "Later"
+      ],
+      "responses": [
+        "Thanks for chatting! Come back anytime",
+        "Have a great day!",
+        "Goodbye! Feel free to return with more questions"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?", "How's it going?", "How are you doing?", 
+        "How you doing?", "What's up?", "You good?", "How's life?",
+        "How are things?", "How's your day?", "Feeling good?",
+        "How you feeling?", "Are you well?", "How's everything?"
+      ],
+      "responses": [
+        "I'm just a chatbot, but I'm functioning perfectly! How about you?",
+        "Doing great digitally speaking! How can I help you?",
+        "All systems operational! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "about_me",
+      "patterns": [
+        "Who are you?", "Tell me about yourself", "What do you do?",
+        "Your background?", "Are you a developer?", "Your skills?",
+        "What's your expertise?", "What kind of work do you do?",
+        "Introduce yourself", "Who created you?"
+      ],
+      "responses": [
+        "I'm Vaibhav's assistant! He's a FullStack developer specializing in React.js, Next.js and modern web applications",
+        "My creator is Vaibhav Dwivedi, a self-taught developer who builds responsive web apps with great UI/UX",
+        "I represent Vaibhav - a developer focused on creating high-performance web applications using cutting-edge tech"
+      ]
+    },
+    {
+      "tag": "personal_status",
+      "patterns": [
+        "How is Vaibhav?", "What's Vaibhav up to?", "Is Vaibhav available?",
+        "How's Vaibhav doing?", "What is Vaibhav working on?",
+        "Vaibhav's current status", "Is Vaibhav busy?"
+      ],
+      "responses": [
+        "Vaibhav is currently focused on developing new web applications",
+        "He's actively working on client projects and personal initiatives",
+        "As a developer, he's usually coding - but I can answer most questions!"
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Show your projects", "What have you built?", "Portfolio examples", 
+        "Your work?", "Demo your apps", "Show me your creations",
+        "What projects have you done?", "Can I see your portfolio?"
+      ],
+      "responses": [
+        "Key projects: 1) LaborHutt - Local truck services 2) BobcatTours - City tours 3) Manganerdy - Comic database 4) Impressive - Interest matching",
+        "My featured work includes LaborHutt (logistics platform), BobcatTours (tour booking), Manganerdy (comic scraper), and Impressive (social discovery)",
+        "Check out these creations: LaborHutt for local moving, BobcatTours for NYU-guided tours, Manganerdy for comics, and Impressive for connecting people"
+      ]
+    },
+    {
+      "tag": "laborhutt",
+      "patterns": [
+        "What is LaborHutt?", "Explain LaborHutt", "Truck project?", 
+        "Local pickup app?", "Moving service?", "LaborHutt details",
+        "Tell me about LaborHutt", "How does LaborHutt work?"
+      ],
+      "responses": [
+        "LaborHutt connects people needing moving/pickup services with truck owners nearby - built with Next.js and Firebase",
+        "It's a logistics platform helping users find affordable local moving solutions using neighbor's trucks - saves up to 60% on moving costs!",
+        "LaborHutt: A peer-to-peer truck service app created with Next.js and TailwindCSS that makes local moving easy and affordable"
+      ]
+    },
+    {
+      "tag": "bobcattours",
+      "patterns": [
+        "Tell me about BobcatTours", "NYU tours?", "City tour app?",
+        "BobcatTours info", "Travel guide project", "Tour booking system"
+      ],
+      "responses": [
+        "BobcatTours connects travelers with NYU students for authentic city experiences - built with Next.js",
+        "It's a tour platform where NYU students guide visitors through cities - featured in NYU's campus newsletter!",
+        "BobcatTours: A Next.js application that books personalized city tours guided by local university students"
+      ]
+    },
+    {
+      "tag": "manganerdy",
+      "patterns": [
+        "What is Manganerdy?", "Comic scraper?", "Your manga project?",
+        "Manganerdy details", "Comic database", "Anime project?"
+      ],
+      "responses": [
+        "Manganerdy collects comic data from multiple sources into a beautiful interface - powered by Next.js and MongoDB",
+        "It's a comprehensive comic database with 10K+ entries that aggregates content from various publishers and sources",
+        "Manganerdy: A comic information hub that scrapes and presents manga/comic data in an organized way"
+      ]
+    },
+    {
+      "tag": "impressive",
+      "patterns": [
+        "What is Impressive?", "Interest matching app?", "Social discovery project?",
+        "Impressive app", "Connection platform", "Social network project"
+      ],
+      "responses": [
+        "Impressive helps people connect through shared interests - created with React and Firebase",
+        "It's a social discovery app that matches users based on hobbies and interests - reduces search time by 75%!",
+        "Impressive: A React-based platform that helps you find people with similar interests and passions"
+      ]
+    },
+    {
+      "tag": "tech_stack",
+      "patterns": [
+        "Your tech stack?", "What technologies do you use?", "Preferred frameworks?", 
+        "Dev tools?", "What languages?", "Frontend tools?", "Backend stack?",
+        "Programming languages", "Development stack"
+      ],
+      "responses": [
+        "Frontend: React.js, Next.js, Tailwind CSS | Backend: Node.js, Express.js, MongoDB | Tools: Figma, Jest, Git",
+        "My core stack: React/Next.js for frontend, Node/Express for backend, MongoDB for database, and Tailwind for styling",
+        "Tech preferences: JavaScript ecosystem with React, Next.js, Node.js, and modern CSS frameworks like Tailwind"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact you?", "Your email?", "Collaboration?", 
+        "Start a project?", "Work together?", "Hire you?",
+        "Contact info", "Get in touch", "Business inquiry"
+      ],
+      "responses": [
+        "Visit vaibhav-op.vercel.app for contact options - I'm available for projects!",
+        "Reach out through my portfolio site - I'm flexible with time zones",
+        "For collaborations, please check the contact section on my portfolio website"
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "Your work experience?", "Past jobs?", "Infosys role?", 
+        "Engineering background?", "Professional history", 
+        "Work history", "Previous positions"
+      ],
+      "responses": [
+        "I was a System Engineer at Infosys where I built landing pages, implemented TypeScript state management, and achieved 70% test coverage",
+        "At Infosys, I developed responsive UIs, created efficient state management systems, and maintained high test coverage",
+        "My professional experience includes frontend engineering at Infosys focusing on React, TypeScript, and testing"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell a joke", "Make me laugh", "Something funny", 
+        "Can you dance?", "Be humorous", "Say something silly",
+        "Entertain me", "Lighten the mood", "Funny comment"
+      ],
+      "responses": [
+        "Why do JavaScript developers wear glasses? Because they can't C#!",
+        "I'm a chatbot - I can't dance but I can boogie down with binary! 01000110 01110101 01101110",
+        "What's a computer's favorite snack? Microchips!",
+        "Why was the JavaScript developer sad? He didn't Node how to Express himself!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "Good job!", "Awesome work", "You're smart", 
+        "Impressive!", "Well done", "Great job",
+        "You're amazing", "Excellent", "Fantastic",
+        "I like you", "You're helpful"
+      ],
+      "responses": [
+        "Thanks! My creator trained me well 😊",
+        "Appreciate it! I'll pass this to Vaibhav!",
+        "You're making me blush digitally!",
+        "Thanks! I'm constantly learning from interactions"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What can you do?", "Your capabilities?", "Help menu", 
+        "Options", "How to use", "Commands", "Assistance",
+        "Help me", "Support", "What questions can I ask?"
+      ],
+      "responses": [
+        "I can: Show projects • Explain tech stack • Discuss work experience • Tell jokes • Answer about Vaibhav",
+        "Ask me about: My projects • Development skills • Work history • Or just say hi!",
+        "Try: 'Explain LaborHutt' or 'What tech do you use?' or 'Tell me a joke'"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Appreciate it", "That's helpful",
+        "Thank's a lot!", "Gracias", "Merci", "Cheers",
+        "Nice one", "Helpful", "Good help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase?",
+        "I don't have information on that yet. Try asking about my projects or skills!",
+        "Still learning! Ask me about web development or check my portfolio at vaibhav-op.vercel.app"
+      ]
+    }
+  ]
+}
